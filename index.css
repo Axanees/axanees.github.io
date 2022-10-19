@@ -8,6 +8,7 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+
 #loading {
   width: 100vw;
   height: 100vh;
@@ -23,11 +24,12 @@ body {
   animation: rotate 0.56s infinite linear;
   width: 50px;
   height: 50px;
-  border: 12px solid rgb(111, 41, 250);
+  border: 12px solid #ff0054;
   border-bottom: 12px solid #fff;
   border-radius: 50%;
   margin: 0;
 }
+
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
@@ -74,7 +76,7 @@ header table {
   transition: 0.4s ease-in-out;
 }
 #magnify h1:hover {
-  color: rgb(111, 41, 250);
+  color: #ff0054;
   cursor: pointer;
 }
 #img_here {
@@ -86,7 +88,7 @@ header table {
 }
 #logo {
   font-size: 24px;
-  color: rgb(111, 41, 250);
+  color: #ff0054;
 }
 #navigation {
   text-align: right;
@@ -131,7 +133,7 @@ header table {
   text-align: left;
 }
 .social {
-  color: rgb(111, 41, 250);
+  color: #ff0054;
   font-size: 23px;
   padding: 12px 17px;
   border-radius: 50%;
@@ -143,15 +145,15 @@ header table {
 .social:hover {
   cursor: pointer;
   color: #fff;
-  background: rgb(111, 41, 250);
-  box-shadow: 0px 10px 30px rgba(111, 41, 250, 0.8);
+  background: #ff0054;
+  box-shadow: 0px 10px 30px rgba(111, 41, 250, 122);
 }
 .btn_one {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
-  color: rgb(111, 41, 250);
+  color: #ff0054;
   background: #fff;
-  border: 3px solid rgb(111, 41, 250);
+  border: 3px solid #ff0054;
   padding: 8px 40px;
   width: 35%;
   border-radius: 80px;
@@ -169,7 +171,7 @@ header table {
   width: 100%;
   height: 95vh;
   background: linear-gradient(0deg, rgba(111, 41, 250), rgba(2255, 44, 90, 0.8)),
-    url("https://images.unsplash.com/photo-1506057527569-6a0285b2fcc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=60")
+    url("https://img.freepik.com/free-vector/designers-are-working-desing-web-page-web-design-user-interface-user-experience-content-organization_335657-4403.jpg?w=996&t=st=1666165203~exp=1666165803~hmac=2043102865204c09fa8118877ed0b4a9014a1df2b79b3a71e0ea8c4e9055d7fc")
       center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -181,7 +183,7 @@ header table {
 }
 #work h1 {
   padding: 5px 0px;
-  border-bottom: 4px solid rgb(111, 41, 250);
+  border-bottom: 4px solid #ff0054;
   width: 6%;
 }
 #photos {
@@ -208,7 +210,7 @@ header table {
 }
 #bio h1 {
   padding: 5px 0px;
-  border-bottom: 4px solid rgb(111, 41, 250);
+  border-bottom: 4px solid #ff0054;
   width: 8%;
 }
 #contact {
@@ -217,7 +219,7 @@ header table {
 }
 #contact h1 {
   padding: 5px 0px;
-  border-bottom: 4px solid rgb(111, 41, 250);
+  border-bottom: 4px solid #ff0054;
   width: 10%;
 }
 #contact table {
@@ -286,7 +288,7 @@ header table {
   font-weight: bold;
 }
 #footer a {
-  color: rgb(111, 41, 250);
+  color: #ff0054;
   text-decoration: none;
 }
 ::placeholder {
@@ -350,7 +352,7 @@ button:focus {
     width: 60%;
     margin: 4vh auto;
     box-shadow: 0px 10px 20px rgba(111, 41, 250, 0.8);
-    background: rgb(111, 41, 250);
+    background: #ff0054;
     color: #fff;
   }
   .btn_one:hover {
